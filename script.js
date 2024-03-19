@@ -9,7 +9,7 @@ function grn(max){
     let rndmnumber = Math.floor(Math.random() * max) + 1;
     //if...else if...else statement
     //if( conditions ) { block of code to execute}
-    // ==, ! =, >, <, > =, < =, &&, ||
+    // ==, ! =, >, <, > =, < =, &&, || 
 
     if(rndmnumber <= 15){
         B = true;
@@ -45,7 +45,7 @@ function grn(max){
     }
     
 }
-
+//comment
 console.log("Hello World");
 
 grn(75);
